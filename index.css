@@ -1,0 +1,114 @@
+.top{
+    background-image: url(./images/hero-bg-desktop.jpg);
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+
+}
+
+.text_box{
+    color: white;
+}
+
+.formbox{
+    background-color: white;
+    max-width: 100%;
+    width: 50%;
+    height: 350px;
+    margin-top: 150px;
+    box-shadow: 1px 1px 5px gray;
+    position: relative;
+    justify-content: center;
+}
+
+.name-email{
+    max-width: 100%;
+    
+}
+.name-email input{
+    padding: 10px;
+    margin: 6px;
+    max-width: 100%;
+    width: 90%;
+    white-space: nowrap;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+.pick_date{
+    padding: 5px;
+    margin: 6px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pick_date input{
+    width: 20%;
+    border: none;
+    border-bottom: 2px solid gray;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.pick_time{
+    padding: 5px;
+    margin: 6px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pick_time input{
+    width: 20%;
+    border: none;
+    border-bottom: 2px solid gray;
+    text-align: center;
+    padding: 5px;
+}
+
+.pick_time select{
+    border:none;
+    border-bottom: 2px solid gray;
+    padding: 4px;
+    width: 20%;
+    text-align: center;
+}
+
+.reserve_button{
+    display: flex;
+    max-width: 100%;
+}
+.reserve_button button{
+   background-color: black;
+   color: white;
+   height: 40px;
+   width: 100%;
+   margin: 10px;
+   border: none;
+   }
+
+.middle{
+    background-image: url(./patterns/pattern-curve-bottom-right.svg);
+    background-repeat: no repeat;
+    height: 260px;
+    max-height: 100%;
+    max-width: 100%;
+    background-size: contain;
+    width: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.middle img{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.bottom{
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    display: flex;
+}
